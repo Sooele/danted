@@ -36,7 +36,7 @@
 <h3>******安装用说明</h3>
 <ul>
 <li> 1. 下载 
-<code> wget --no-check-certificate https://raw.github.com/Lozy/danted/master/install.sh -O install.sh </code> </li>
+<code> wget --no-check-certificate https://raw.github.com/Sooele/danted/master/install.sh -O install.sh </code> </li>
 <li> 2. [可选] 修改 默认参数，DEFAULT_PORT 为默认端口，DEFAULT_USER PAM用户名，DEFAULT_PAWD PAM用户对应密码 MASTER_IP 为免认证白名单（域名，IP可选：  如默认的buyvm.info 或者具体Ip 8.8.8.8/32 ）</li>
 <li> 3. 修改后，执行(不懂的，直接用下面的格式，自己修改) <code> bash install.sh </code> </li>
 <li> 3. 修改后，执行<code>bash install.sh --ip="server_ip" --port=xxx --user=xxxx --passwd=xxxx</code></li>
@@ -84,7 +84,7 @@ Comparing with the apt-get or building from source manually, this script will be
 ## Install
 
 ```bash
-wget --no-check-certificate https://raw.github.com/Lozy/danted/master/install.sh -O install.sh 
+wget --no-check-certificate https://raw.github.com/Sooele/danted/master/install.sh -O install.sh 
 bash install.sh
 
 # run with options: bash install.sh option1 option2
