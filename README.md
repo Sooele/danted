@@ -60,7 +60,7 @@
 
 ## 通过测试Vultr https://www.vultr.com/?ref=7205255
 
-<h2><a id="user-content-通过测试vultr-httpswwwvultrcomref7205255" class="anchor" href="https://github.com/Sooele/danted#%E9%80%9A%E8%BF%87%E6%B5%8B%E8%AF%95vultr-httpswwwvultrcomref7205255" aria-hidden="true"></a>通过测试Vultr <a href="https://www.vultr.com/?ref=7205255">https://www.vultr.com/</a></h2>
+## <h2><a id="user-content-通过测试vultr-httpswwwvultrcomref7205255" class="anchor" href="https://github.com/Sooele/danted#%E9%80%9A%E8%BF%87%E6%B5%8B%E8%AF%95vultr-httpswwwvultrcomref7205255" aria-hidden="true"></a>通过测试Vultr <a href="https://www.vultr.com/?ref=7205255">https://www.vultr.com/</a></h2>
 | OS release | Platform | Provider | Result |
 | :--- | :--- | --- |  --- | 
 | Debian GNU/Linux 8 (jessie) | x86_64 | vultr | 通过|
