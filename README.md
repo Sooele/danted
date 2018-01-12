@@ -58,7 +58,7 @@
 | service sockd adduser | /etc/init.d/sockd adduser | 添加pam-auth用户：service sockd adduser NAME PASSWORD |
 | service sockd deluser | /etc/init.d/sockd deluser | 删除pam-auth用户：service sockd deluser NAME |
 
-## 通过测试Vultr  </a>通过测试Vultr <a href="https://www.vultr.com/?ref=7205255">https://www.vultr.com/</a>
+## 通过测试Vultr  通过测试Vultr <a href="https://www.vultr.com/?ref=7205255">https://www.vultr.com/</a>
 | OS release | Platform | Provider | Result |
 | :--- | :--- | --- |  --- | 
 | Debian GNU/Linux 8 (jessie) | x86_64 | vultr | 通过|
