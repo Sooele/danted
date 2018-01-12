@@ -45,18 +45,22 @@
 </ul>
 ******安装后使用说明
 ## Management
+
 | command | option | description |
 | :--- | :--- | --- |
 | service sockd start | /etc/init.d/sockd start | 启动socks5服务器守护进程 |
 | service sockd stop | /etc/init.d/sockd stop | 停止socks5服务器守护进程 |
-| service sockd restart | /etc/init.d/sockd restart | 重新启动socks5服务器守护进程|
-| service sockd reload | /etc/init.d/sockd reload | 重新加载socks5服务器守护进程|
+| service sockd restart | /etc/init.d/sockd restart | 重新启动socks5服务器守护进程 |
+| service sockd reload | /etc/init.d/sockd reload | 重新加载socks5服务器守护进程 |
 | service sockd status | | 系统进程状态 |
-| service sockd state | /etc/init.d/sockd state | 运行状态|
+| service sockd state | /etc/init.d/sockd state | 运行状态 |
 | service sockd tail | /etc/init.d/sockd tail | sock 日志 |
-| service sockd adduser | /etc/init.d/sockd adduser |添加pam-auth用户：service sockd adduser NAME PASSWORD|
+| service sockd adduser | /etc/init.d/sockd adduser | 添加pam-auth用户：service sockd adduser NAME PASSWORD |
 | service sockd deluser | /etc/init.d/sockd deluser | 删除pam-auth用户：service sockd deluser NAME |
-## Test Pass
+
+
+
+
 <h3>******使用注意事项</h3>
 <ul>
 <li> 1. 绝大部分浏览器（除了Opera）都不支持带密码认证的Socks5，所以使用电脑需要安装proxifier/proxycap 等软件做验证处理。</li> 
