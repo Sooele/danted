@@ -58,8 +58,20 @@
 | service sockd adduser | /etc/init.d/sockd adduser | 添加pam-auth用户：service sockd adduser NAME PASSWORD |
 | service sockd deluser | /etc/init.d/sockd deluser | 删除pam-auth用户：service sockd deluser NAME |
 
+## 通过测试Vultr
 
+| OS release | Platform | Provider | Result |
+| :--- | :--- | --- |  --- | 
+| Debian GNU/Linux 8 (jessie) | x86_64 | vultr | 通过|
+| Debian GNU/Linux 7 (wheezy) | x86_64 | vultr | 通过 |
+| Debian GNU/Linux 7 (wheezy) | i686 | vultr | 通过 |
+| Ubuntu 16.10 (Yakkety Yak)  | x86_64 | vultr | 通过 |
+| Ubuntu 14.04.5 LTS | i686 | vultr | 通过
+| CentOS Linux 7 (Core) | x86_64 | vultr | 通过 |
+| CentOS Linux 6 | x86_64 | vultr | 通过 |
+| CentOS Linux 6 | i686 | vultr | 通过 |
 
+https://www.vultr.com/?ref=7205255
 
 <h3>******使用注意事项</h3>
 <ul>
@@ -154,5 +166,6 @@ bash install.sh --ip="server_ip" --port=xxx --user=xxxx --passwd=xxxx
 | CentOS Linux 7 (Core) | x86_64 | vultr | pass |
 | CentOS Linux 6 | x86_64 | vultr | pass |
 | CentOS Linux 6 | i686 | vultr | pass |
+https://www.vultr.com/?ref=7205255
 
 
