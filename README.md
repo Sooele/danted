@@ -44,18 +44,18 @@
 <p>显示 Dante Server Install Failed! 则表明安装失败，求留言反馈操作系统+具体问题。</p></li>
 </ul>
 <h3>******安装后使用说明</h3>
-<ul>
-<li> 1. 命令参数 /etc/init.d/danted {start|stop|restart|status|add|del}</li>
-<li> 2. 重启sock5 /etc/init.d/danted restart  或者 service danted restart </li>
-<li> 3. 关闭sock5 /etc/init.d/danted stop 或者 service danted stop </li>
-<li> 4. 开启sock5 /etc/init.d/danted start 或者 service danted start </li>
-<li> 5. 查看sock5状态 /etc/init.d/danted status 或者 service danted status </li>
-<li> 6. 添加SOCK5 PAM用户/修改密码 /etc/init.d/danted add 用户名 密码</li>
-<li> 7. 删除SOCK5 PAM用户 /etc/init.d/danted del 用户名</li>
-<li> 8. 配置文件路径/etc/danted/sockd.conf </li>
-<li> 9. 日志记录路径 /var/log/danted.log</li>
-<li> 10. danted 帮助命令 danted --help </li>
-</ul>
+| command | option | description |
+| :--- | :--- | --- |
+| service sockd start | /etc/init.d/sockd start | 启动socks5服务器守护进程 |
+| service sockd stop | /etc/init.d/sockd stop | 停止socks5服务器守护进程 |
+| service sockd restart | /etc/init.d/sockd restart | 重新启动socks5服务器守护进程|
+| service sockd reload | /etc/init.d/sockd reload | 重新加载socks5服务器守护进程|
+| service sockd status | | 系统进程状态 |
+| service sockd state | /etc/init.d/sockd state | 运行状态|
+| service sockd tail | /etc/init.d/sockd tail | sock 日志 |
+| service sockd adduser | /etc/init.d/sockd adduser |添加pam-auth用户：service sockd adduser NAME PASSWORD|
+| service sockd deluser | /etc/init.d/sockd deluser | 删除pam-auth用户：service sockd deluser NAME |
+
 <h3>******使用注意事项</h3>
 <ul>
 <li> 1. 绝大部分浏览器（除了Opera）都不支持带密码认证的Socks5，所以使用电脑需要安装proxifier/proxycap 等软件做验证处理。</li> 
@@ -130,7 +130,6 @@ bash install.sh --ip="server_ip" --port=xxx --user=xxxx --passwd=xxxx
 | service sockd stop | /etc/init.d/sockd stop | stop socks5 server daemon |
 | service sockd restart | /etc/init.d/sockd restart | restart socks5 server daemon |
 | service sockd reload | /etc/init.d/sockd reload | reload socks5 server daemon |
-| service sockd restart | /etc/init.d/sockd restart | restart socks5 server daemon |
 | service sockd status | | systemd process status |
 | service sockd state | /etc/init.d/sockd state | running state |
 | service sockd tail | /etc/init.d/sockd tail | sock log tail |
