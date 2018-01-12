@@ -44,17 +44,19 @@
 <p>显示 Dante Server Install Failed! 则表明安装失败，求留言反馈操作系统+具体问题。</p></li>
 </ul>
 <h3>******安装后使用说明</h3>
+## Management
+
 | command | option | description |
 | :--- | :--- | --- |
-| service sockd start | /etc/init.d/sockd start | 启动socks5服务器守护进程 |
-| service sockd stop | /etc/init.d/sockd stop | 停止socks5服务器守护进程 |
-| service sockd restart | /etc/init.d/sockd restart | 重新启动socks5服务器守护进程|
-| service sockd reload | /etc/init.d/sockd reload | 重新加载socks5服务器守护进程|
-| service sockd status | | 系统进程状态 |
-| service sockd state | /etc/init.d/sockd state | 运行状态|
-| service sockd tail | /etc/init.d/sockd tail | sock 日志 |
-| service sockd adduser | /etc/init.d/sockd adduser |添加pam-auth用户：service sockd adduser NAME PASSWORD|
-| service sockd deluser | /etc/init.d/sockd deluser | 删除pam-auth用户：service sockd deluser NAME |
+| service sockd start | /etc/init.d/sockd start | start socks5 server daemon |
+| service sockd stop | /etc/init.d/sockd stop | stop socks5 server daemon |
+| service sockd restart | /etc/init.d/sockd restart | restart socks5 server daemon |
+| service sockd reload | /etc/init.d/sockd reload | reload socks5 server daemon |
+| service sockd status | | systemd process status |
+| service sockd state | /etc/init.d/sockd state | running state |
+| service sockd tail | /etc/init.d/sockd tail | sock log tail |
+| service sockd adduser | /etc/init.d/sockd adduser | add pam-auth user:  service sockd adduser NAME PASSWORD |
+| service sockd deluser | /etc/init.d/sockd deluser | delete pam-auth user:  service sockd deluser NAME |
 
 <h3>******使用注意事项</h3>
 <ul>
