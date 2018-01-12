@@ -59,8 +59,8 @@
 | service sockd deluser | /etc/init.d/sockd deluser | 删除pam-auth用户：service sockd deluser NAME |
 
 ## 通过测试Vultr https://www.vultr.com/?ref=7205255
-<a id="user-content-通过测试vultr-httpswwwvultrcomref7205255" class="anchor" href="https://github.com/Sooele/danted#%E9%80%9A%E8%BF%87%E6%B5%8B%E8%AF%95vultr-httpswwwvultrcomref7205255" aria-hidden="true"></a>通过测试Vultr <a href="https://www.vultr.com/?ref=7205255">https://www.vultr.com/</a>
 
+<h2><a id="user-content-通过测试vultr-httpswwwvultrcomref7205255" class="anchor" href="https://github.com/Sooele/danted#%E9%80%9A%E8%BF%87%E6%B5%8B%E8%AF%95vultr-httpswwwvultrcomref7205255" aria-hidden="true"></a>通过测试Vultr <a href="https://www.vultr.com/?ref=7205255">https://www.vultr.com/</a></h2>
 | OS release | Platform | Provider | Result |
 | :--- | :--- | --- |  --- | 
 | Debian GNU/Linux 8 (jessie) | x86_64 | vultr | 通过|
@@ -71,6 +71,7 @@
 | CentOS Linux 7 (Core) | x86_64 | vultr | 通过 |
 | CentOS Linux 6 | x86_64 | vultr | 通过 |
 | CentOS Linux 6 | i686 | vultr | 通过 |
+
 
 
 <h3>******使用注意事项</h3>
@@ -155,7 +156,7 @@ bash install.sh --ip="server_ip" --port=xxx --user=xxxx --passwd=xxxx
 
 
 ## Test Pass https://www.vultr.com/?ref=7205255
-<a id="user-content-通过测试vultr-httpswwwvultrcomref7205255" class="anchor" href="https://github.com/Sooele/danted#%E9%80%9A%E8%BF%87%E6%B5%8B%E8%AF%95vultr-httpswwwvultrcomref7205255" aria-hidden="true"></a>通过测试Vultr <a href="https://www.vultr.com/?ref=7205255">https://www.vultr.com/</a>
+
 
 | OS release | Platform | Provider | Result |
 | :--- | :--- | --- |  --- | 
