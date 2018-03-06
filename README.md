@@ -60,19 +60,6 @@
 | service sockd adduser | /etc/init.d/sockd adduser | 添加pam-auth用户：service sockd adduser NAME PASSWORD |
 | service sockd deluser | /etc/init.d/sockd deluser | 删除pam-auth用户：service sockd deluser NAME |
 
-## 通过测试Vultr https://www.vultr.com/?ref=7205255
-| OS release | Platform | Provider | Result |
-| :--- | :--- | --- |  --- | 
-| Debian GNU/Linux 8 (jessie) | x86_64 | vultr | 通过|
-| Debian GNU/Linux 7 (wheezy) | x86_64 | vultr | 通过 |
-| Debian GNU/Linux 7 (wheezy) | i686 | vultr | 通过 |
-| Ubuntu 16.10 (Yakkety Yak)  | x86_64 | vultr | 通过 |
-| Ubuntu 14.04.5 LTS | i686 | vultr | 通过
-| CentOS Linux 7 (Core) | x86_64 | vultr | 通过 |
-| CentOS Linux 6 | x86_64 | vultr | 通过 |
-| CentOS Linux 6 | i686 | vultr | 通过 |
-
-
 
 <h3>******使用注意事项</h3>
 <ul>
@@ -153,20 +140,3 @@ bash install.sh --ip="server_ip" --port=xxx --user=xxxx --passwd=xxxx
 | service sockd tail | /etc/init.d/sockd tail | sock log tail |
 | service sockd adduser | /etc/init.d/sockd adduser | add pam-auth user:  service sockd adduser NAME PASSWORD |
 | service sockd deluser | /etc/init.d/sockd deluser | delete pam-auth user:  service sockd deluser NAME |
-
-
-## Test Pass https://www.vultr.com/?ref=7205255
-
-
-| OS release | Platform | Provider | Result |
-| :--- | :--- | --- |  --- | 
-| Debian GNU/Linux 8 (jessie) | x86_64 | vultr | pass |
-| Debian GNU/Linux 7 (wheezy) | x86_64 | vultr | pass |
-| Debian GNU/Linux 7 (wheezy) | i686 | vultr | pass |
-| Ubuntu 16.10 (Yakkety Yak)  | x86_64 | vultr | pass |
-| Ubuntu 14.04.5 LTS | i686 | vultr | pass
-| CentOS Linux 7 (Core) | x86_64 | vultr | pass |
-| CentOS Linux 6 | x86_64 | vultr | pass |
-| CentOS Linux 6 | i686 | vultr | pass |
-
-
